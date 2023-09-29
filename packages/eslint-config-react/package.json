@@ -1,0 +1,46 @@
+{
+  "name": "@mubox/eslint-config-react",
+  "version": "0.0.1",
+  "description": "木自用eslint规范,react项目使用",
+  "private": false,
+  "main": "react.js",
+  "scripts": {
+    "lint": "eslint . --ext .react,.js,.ts,.jsx,.tsx,.md,.json --max-warnings 0 --cache",
+    "lint:fix": "pnpm run lint --fix",
+    "lint:commit": "commitlint --from $(git merge-base origin/dev HEAD) --to HEAD > ./commit-lint.txt"
+  },
+  "keywords": [
+    "eslint",
+    "react"
+  ],
+  "author": "EvilMoOd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mubox-admin/mubox-config",
+    "directory": "packages/eslint-config-react"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "prettier": ">=3.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.54.1",
+    "@typescript-eslint/parser": "5.54.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-markdown": "^3.0.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

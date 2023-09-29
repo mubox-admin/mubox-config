@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "strict": true,
+    "declaration": true,
+    "allowJs": false,
+    "composite": false,
+    "declarationMap": false,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "removeComments": false,
+    "preserveWatchOutput": true,
+    "noUnusedLocals": true,
+    "noImplicitOverride": true,
+    "noUnusedParameters": false,
+    "useDefineForClassFields": false,
+    "useUnknownInCatchVariables": false
+  },
+  "exclude": ["**/node_modules/**", "**/dist/**"]
+}
