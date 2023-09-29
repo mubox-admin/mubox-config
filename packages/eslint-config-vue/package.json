@@ -1,6 +1,6 @@
 {
   "name": "@mubox/eslint-config-vue",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "木自用eslint规范,vue项目使用",
   "main": "vue.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "prettier": ">=3.0.0",
     "typescript": ">=5.0.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "eslint-config-prettier": "^9.0.0",
