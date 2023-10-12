@@ -54,13 +54,13 @@ pnpm i eslint prettier @mubox/eslint-config-react @mubox/ts-config -D
 ```json
 {
   "printWidth": 100,
-  "singleQuote": true,
   "proseWrap": "never",
   "htmlWhitespaceSensitivity": "ignore",
   "endOfLine": "auto",
   // 下面是默认设置
   "tabWidth": 2,
   "useTabs": false,
+  "singleQuote": false,
   "semi": true,
   "vueIndentScriptAndStyle": false,
   "quoteProps": "as-needed",
