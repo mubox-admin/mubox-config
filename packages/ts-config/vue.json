@@ -2,9 +2,6 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Vue",
   "extends": "./base.json",
-  "paths": {
-    "@/*": ["src/*"]
-  },
   "compilerOptions": {
     "jsx": "preserve",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
