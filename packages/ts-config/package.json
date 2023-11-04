@@ -1,6 +1,6 @@
 {
   "name": "@mubox/ts-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "木自用tsconfig规范,vue项目使用",
   "private": false,
   "license": "MIT",
